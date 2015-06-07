@@ -1,0 +1,31 @@
+html {
+    background-image: url(http://ww3.sinaimg.cn/large/610dc034jw1eshxmxzqlgj208c08ct8n.jpg);
+}
+
+.content {
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 40px 60px;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    margin-bottom: 40px;
+}
+
+.content img {
+    border: 10px solid #FFFFFF;
+    box-shadow: 0 1px 2px #BBB;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}

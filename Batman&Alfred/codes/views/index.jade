@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    h1.center Alfreds
+  .container.content.typo
+    table
+      thead
+        th ID
+        th 指令
+        th 任务地址
+      tbody
+        for item in servants
+          tr
+            td #{item.name}
+            td #{item.command}
+            td #{item.url}
